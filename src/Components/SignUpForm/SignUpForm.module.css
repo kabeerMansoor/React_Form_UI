@@ -1,0 +1,30 @@
+.boxDiv{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 103);
+    height: 60vh;
+    padding: 70px;
+    box-shadow: 5px 5px 35px white;
+    border-radius: 30px;
+}
+
+.Fields{
+    margin-top: 25px;
+    display: flex;
+    width: 350px;
+    gap: 30px;
+    font-weight: bold;
+}
+.Fields label {
+    text-align: right;
+    padding: 7px;
+}
+.Fields input {
+    flex: 1;
+    padding: 7px  15px;
+    border-radius: 20px;
+    margin-top: -5px;
+}
+.marginTop{
+    margin-top: 25px;
+}
